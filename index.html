@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RFC</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body style="background-color: azure;">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+                <br>
+                <br>
+                <h3>Consultar RFC</h4>
+                    <br>
+                    <br>
+                    <label for="">Introduce tu nombre(s)</label>
+                    <input type="text" class="form-control" id="nombre" style="background-color:lightcyan;">
+                    <label for="">Introduce tu primer apellido</label>
+                    <input type="text" class="form-control" id="primerApellido" style="background-color:lightcyan;">
+                    <label for="">Introduce tu segundo apellido</label>
+                    <input type="text" class="form-control" id="segundoApellido" style="background-color:lightcyan;">
+                    <label for="">Introduce tu fecha de nacimiento</label>
+                    <input type="date" class="form-control" id="fechaNacimiento" style="background-color:lightcyan;">
+                    <br>
+                    <button type="button" class="btn btn-dark" onclick="obtener()">
+                        Consular RFC
+                    </button>
+                    <button type="button" class="btn btn-dark" onclick="limiarCampos()">
+                        Limpiar
+                    </button>
+            </div>
+        </div>
+    </div>
+    <script src="examen.js"></script>
+</body>
+</html>
